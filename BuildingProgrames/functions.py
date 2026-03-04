@@ -70,3 +70,27 @@ print(f"The returned sum is: {result}")
 
 
 #def calculate_area(width,height)
+
+def calculate_area(width, height):
+    area = width * height
+    area=area*10.7639  # Convert area from square meters to square feet
+    return area  # Return the calculated area   
+
+#store the returned value in a variable
+room_area = calculate_area(width=5, height=4)
+print(f"The area of the room is: {room_area} sq ft")
+
+#double the Number
+def double_number(num):
+    return num * 2  # Multiply the input number by 2 and return the result  
+result = double_number(num=5) #storing in a variable
+
+#use in expression
+total=double_number(5)+double_number(10)
+print(double_number(5))  # Example usage of double_number function with parameter
+
+#use in conditions  
+if(double_number(5) > 10):
+    print("The doubled number is greater than 10.")
+else:
+    print("The doubled number is not greater than 10.") 
