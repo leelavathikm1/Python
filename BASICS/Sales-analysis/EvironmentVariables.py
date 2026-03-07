@@ -11,3 +11,4 @@ else:
 
 # Method 3: Will crash if not found
 api_key = os.environ['API_KEY']  # KeyError if missing!
+
